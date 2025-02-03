@@ -5,11 +5,7 @@ body {
 }
 
 .container {
-  /* font-size: 3rem; */
-  /* margin: auto; */
   display: flex;
   justify-content: center;
   align-items: center;
-  /* max-width: 800px;
-  margin-top: 20px; */
 }

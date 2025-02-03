@@ -1,11 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
 import "./index.css";
+const Calculator = React.lazy(() => import("app1/Calculator" as any));
 
 const App = () => (
   <div className="container">
-    <div>Name: host_app</div>
+    <h1>Host_app</h1>
+    <Calculator />
   </div>
 );
 const rootElement = document.getElementById("app");
